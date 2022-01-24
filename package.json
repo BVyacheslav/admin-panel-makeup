@@ -1,0 +1,29 @@
+{
+  "name": "admin-panel-makeup",
+  "description": "",
+  "version": "0.2.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BVyacheslav/admin-panel-makeup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BVyacheslav/admin-panel-makeup/issues"
+  },
+  "homepage": "https://github.com/BVyacheslav/admin-panel-makeup#readme",
+  "dependencies": {
+    "prettier": "^2.5.1"
+  },
+  "devDependencies": {
+    "pre-commit": "^1.2.2"
+  },
+  "pre-commit": [
+    "prettier"
+  ]
+}
