@@ -5,7 +5,8 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -17,13 +18,12 @@
     "url": "https://github.com/BVyacheslav/admin-panel-makeup/issues"
   },
   "homepage": "https://github.com/BVyacheslav/admin-panel-makeup#readme",
-  "dependencies": {
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.1",
     "prettier": "^2.5.1"
   },
-  "devDependencies": {
-    "pre-commit": "^1.2.2"
-  },
-  "pre-commit": [
-    "prettier"
-  ]
+  "lint-staged": {
+    "*.{js,css,md,html,json}": "prettier --write"
+  }
 }
