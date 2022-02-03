@@ -70,6 +70,7 @@ body {
   border: none;
   background: inherit;
   right: 11.5px;
+  cursor: pointer;
 }
 
 .text-field__locked-icon {
