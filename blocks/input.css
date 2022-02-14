@@ -46,15 +46,21 @@ body {
 }
 
 .text-field__input:focus {
-  border: 2px solid #459df5;
+  box-shadow: 2px 2px 2px #459df5;
 }
 
 .text-field_error {
   border: 1px solid #f53152;
 }
 
+.text-field_error:focus {
+  border: 1px solid #459df5;
+  box-shadow: 2px 2px 2px #459df5;
+}
+
 .text-field_locked {
   background: #bad8f5;
+  color: #000000;
 }
 
 .text-field__label {
