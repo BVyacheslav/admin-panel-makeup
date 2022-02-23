@@ -1,0 +1,86 @@
+.wrapper__button {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 1rem;
+  padding: 48px 48px;
+  width: 576px;
+  height: 376px;
+  border: 1px dashed #8055ff;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.button-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 40px;
+  margin-bottom: 32px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.button_white {
+  background: #459df5;
+  color: #ffffff;
+}
+
+.button_blue {
+  background: none;
+  color: #459df5;
+}
+
+.button_black {
+  background: none;
+  color: #000000;
+}
+
+.button_small {
+  padding: 4px 8px;
+  height: 24px;
+}
+
+.button_only-icon {
+  padding: 8px;
+}
+
+.button_only-icon-small {
+  padding: 4px;
+}
+
+.button__icon {
+  height: 16px;
+  width: 16px;
+  fill: #ffffff;
+}
+
+.button_blue .button__icon {
+  fill: #459df5;
+}
+
+.button_black .button__icon {
+  fill: #000000;
+}
+
+.button__icon_before-text {
+  margin-right: 8px;
+}
+
+.button_small .button__icon_before-text {
+  margin-right: 4px;
+}
