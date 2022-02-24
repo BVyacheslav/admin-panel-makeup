@@ -84,3 +84,8 @@
 .button_small .button__icon_before-text {
   margin-right: 4px;
 }
+
+.button_full {
+  width: 100%;
+  margin-bottom: 0;
+}

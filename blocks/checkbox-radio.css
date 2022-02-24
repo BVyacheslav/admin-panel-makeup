@@ -26,6 +26,10 @@
   height: 1rem;
 }
 
+.checkbox__label_dropdown::before {
+  margin-right: 8px;
+}
+
 .checkbox__label::before {
   content: "";
   width: 1rem;
@@ -39,6 +43,10 @@
 .checkbox__input:checked + .checkbox__label::before {
   background: #459df5;
   border: 0;
+}
+
+.checkbox__input:checked + .checkbox__label_dropdown {
+  color: #459df5;
 }
 
 .wrapper__radio {
