@@ -84,3 +84,7 @@
   border-radius: 15px;
   border: 0;
 }
+
+.radio__input:checked + .radio__label_dropdown {
+  color: #459df5;
+}
