@@ -30,6 +30,10 @@
   margin-right: 8px;
 }
 
+.checkbox__label_dropdown {
+  padding-bottom: 16px;
+}
+
 .checkbox__label::before {
   content: "";
   width: 1rem;
@@ -95,4 +99,9 @@
 
 .radio__input:checked + .radio__label_dropdown {
   color: #459df5;
+}
+
+.radio__label_dropdown {
+  display: flex;
+  padding-bottom: 16px;
 }

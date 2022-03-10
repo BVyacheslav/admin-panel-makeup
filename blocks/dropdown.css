@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 48px 48px;
+  padding: 48px;
   width: 672px;
   height: 512px;
   border: 1px dashed #8055ff;
@@ -14,8 +14,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-around;
-  padding: 16px 16px;
+  padding: 16px;
   margin-right: 48px;
   width: 160px;
   height: 208px;
