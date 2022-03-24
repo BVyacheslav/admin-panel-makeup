@@ -10,6 +10,10 @@
   border-radius: 5px;
 }
 
+.checkbox_dropdown {
+  width: 100%;
+}
+
 .checkbox__input {
   position: absolute;
   z-index: -1;
@@ -24,6 +28,15 @@
   position: absolute;
   width: 1rem;
   height: 1rem;
+}
+
+.checkbox__label_dropdown::before {
+  margin-right: 8px;
+}
+
+.checkbox__label_dropdown {
+  padding-bottom: 16px;
+  width: 100%;
 }
 
 .checkbox__label::before {
@@ -41,6 +54,10 @@
   border: 0;
 }
 
+.checkbox__input:checked + .checkbox__label_dropdown {
+  color: #459df5;
+}
+
 .wrapper__radio {
   display: flex;
   justify-content: space-evenly;
@@ -51,6 +68,10 @@
   border: 1px dashed #8055ff;
   box-sizing: border-box;
   border-radius: 5px;
+}
+
+.radio_dropdown {
+  width: 100%;
 }
 
 .radio__input {
@@ -83,4 +104,13 @@
   background: #459df5;
   border-radius: 15px;
   border: 0;
+}
+
+.radio__input:checked + .radio__label_dropdown {
+  color: #459df5;
+}
+
+.radio__label_dropdown {
+  display: flex;
+  padding-bottom: 16px;
 }

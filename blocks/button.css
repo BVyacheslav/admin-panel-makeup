@@ -91,3 +91,7 @@
 .button_small .icon {
   margin-right: 4px;
 }
+
+.button_full {
+  width: 100%;
+}
